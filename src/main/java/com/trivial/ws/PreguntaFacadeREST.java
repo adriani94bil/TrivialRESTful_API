@@ -25,7 +25,7 @@ import javax.ws.rs.core.MediaType;
  * @author user
  */
 @Stateless
-@Path("com.trivial.entidades.pregunta")
+@Path("preguntas")
 public class PreguntaFacadeREST extends AbstractFacade<Pregunta> {
 
     @PersistenceContext(unitName = "TrivialPU")
